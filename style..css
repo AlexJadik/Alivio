@@ -1,0 +1,580 @@
+body {
+    font-family: Georgia, serif;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Avenir", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1237px;
+    margin: 30px 210px;
+}
+
+/* HEADER */
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-left: 200px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #292929;
+    margin-right: 70px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+
+    transition: color .3s ease;
+}
+
+nav a:hover {
+    color: #01996D;
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+.button-header {
+    color: #000000;
+    font-family: "Lato", sans-serif;
+
+    transition: color .3s ease;
+}
+
+.button-header:hover {
+    color: #01996D;
+}
+
+.button-header_item {
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    margin-left: 35px;
+    display: inline-block;
+
+    
+    transition: transform 0.3s ease; /* плавное увеличение */
+}
+
+.button-header_item:hover {
+
+    transform: scale(1.05); /* Увеличивает на 5% при наведении */
+}
+
+
+/* MAIN */
+
+.section-about {
+height: 695px;
+background: url(./assets/images/BG.png) 
+center/cover no-repeat;
+position: relative;
+margin-bottom: 169px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content h1 {
+    color: #01996D;
+    padding-top: 175px;
+    padding-left: 275px;
+    font-family: Georgia, serif;
+    font-size: 65px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-content p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 157%;
+    padding-left: 275px;
+    color: #484848;
+    padding-top: 30px;
+}
+
+.main-content_buttons {
+    margin-left: 275px;
+    margin-top: 38px;
+}
+
+.main-button {
+background-color: #01996D;
+padding: 20px 50px;
+border-radius: 4px;
+color: #fff;
+display: inline-block;
+font-family: "Lato", sans-serif;
+
+transition: transform .3s ease;
+}
+
+.main-button:hover {
+    transform: scale(1.05);
+}
+
+/* HOW IT WORKS */
+
+.container-inner {
+    width: 1238px;
+    margin: 0 232px 51px 275px;
+}
+
+.about-inner {
+display: flex;
+display: inline-flex;
+justify-content: space-between;
+}
+
+.about-inner p {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.about-inner h1 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 157%;
+    color: #01996D;
+}
+
+.about-inner-text p {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.about-inner-item {
+    width: 550px;
+    margin-left: 222px;
+    margin-top: 52px;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.about-inner-item h6 {
+    color: #424242;
+    font-weight: 500;
+    font-family: "Lato";
+    
+    
+}
+
+.inner-info-main {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+}
+
+.inner-info-left {
+    margin-top: 50px;
+}
+
+.inner-info-midl {
+    margin-top: 305px;
+    width: 390px;
+
+}
+
+.inner-info-right {
+    margin-top: 105px;
+    width: 250px;
+    
+}
+
+.inner-info-left h1 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: #01996D33;
+}
+
+.inner-info-left h3 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    z-index: 2;
+}
+
+.inner-info-left p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #424242;
+    margin-top: 10px;
+}
+
+
+.table-left-1 {
+    position: relative;
+    width: max-content;
+}
+
+.small-text-1 {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    padding-top: 120px;
+}
+
+
+
+.photo-left {
+position: relative;
+display: inline-block;
+width: 310px;
+height: 400;
+margin-top: 60px;
+}
+
+.inner-image-out {
+    width: 100%;        /* Чтобы заняла всю ширину контейнера */
+    height: auto;
+    display: block;
+}
+
+.inner-image-inside {
+position: absolute; /* Позволяет точно ставить картинку */
+  top: 12px;           /* Отступ сверху */
+  left: 160px;          /* Отступ слева */
+  width: 150px;        /* Размер наложенной картинки */
+  padding-top: 165px;
+}
+
+
+.table-left-2 {
+    position: relative;
+}
+
+.small-text-2 {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    padding-top: 120px;
+}
+
+.inner-info-midl h1 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: #01996D33;
+    
+}
+
+.inner-info-midl h3 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #000000;
+    z-index: 2;
+}
+
+.inner-info-midl p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.photo-midl {
+    margin-top: 37px;
+    position: relative;
+    display: inline-block;
+    width: 390px;
+    height: 400;
+}
+
+
+
+
+.table-left-3 {
+    position: relative;
+}
+
+.small-text-3 {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    padding-top: 135px;
+}
+
+.inner-info-right h1 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: #01996D33;
+}
+
+.inner-info-right h3 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    z-index: 2;
+}
+
+.inner-info-right p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #424242;
+    margin-top: 10px;
+    width: 350px;
+}
+
+.photo-right {
+    margin-top: 37px;
+    position: relative;
+    display: inline-block;
+    width: 310px;
+    height: 400;
+}
+
+.inner-down {
+    height: 780px;
+    background: url(./assets/images/BG2.png)
+    center/cover no-repeat;
+    position: relative;
+    margin-bottom: 120px;
+    
+}
+
+.text-content-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-conent-main {
+    margin-right: 35px;
+    margin-top: 80px;
+}
+
+.text-content-item h1 {
+    margin-bottom: 33px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #fff;
+
+}
+
+.text-content-item p {
+    margin-bottom: 53px;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #fff;
+}
+
+.down-content-button {
+margin-top: 57px;
+transition: transform 0.4s ease; /* плавное увеличение */
+display: inline-block;
+}
+
+.main-content_button {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25%;
+    color: #fff;
+    padding: 20px 50px;
+    background-color: #01996D;
+    border-radius: 4px;
+}
+
+.down-content-button:hover {
+
+    transform: scale(1.05); /* Увеличивает на 5% при наведении */
+}
+
+
+.video-main {
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+
+/* FIND YOUR WAY */
+
+.find-your-way {
+    width: 1550px;
+    height: 640px;
+    margin-bottom: 168px;
+}
+
+.logo-1 {
+    position: relative;
+    width: max-content;
+    margin-right: 86px;
+}
+
+.second-logo {
+    position: absolute;
+    top: 175px;
+    left: -60px;
+    padding-top: 120px;
+}
+
+.main-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 235px;
+}
+
+.main-logo {
+    width: 630px;
+    height: auto;
+}
+
+.text-main-way h5 {
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+
+    margin-bottom: 10px;
+}
+
+.text-main-way h1 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+
+    margin-bottom: 20px;
+}
+
+.text-main-way h6 {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 157%;
+    color: #484848;
+
+    margin-bottom: 40px;
+}
+
+.right-content-button {
+    margin-top: 57px;
+    transition: transform 0.4s ease; /* плавное увеличение */
+    display: inline-block;
+    }
+    
+    .content-button {
+        font-family: "Lato";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25%;
+        color: #fff;
+        padding: 20px 50px;
+        background-color: #01996D;
+        border-radius: 4px;
+    }
+
+    .right-content-button:hover {
+    
+        transform: scale(1.05); /* Увеличивает на 5% при наведении */
+    }
+
+
+
+
+    /* FOOTER */
+
+    .footer-main {
+    width: 100%;
+    height: 600px;
+    background: url(./assets/images/BG2.png)
+    center/cover no-repeat;
+    position: relative;
+
+    padding-top: 95px;
+    padding-left: 275px;
+}
+
+.footer-content h4 {
+    font-family: "Avenir", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    color: #fff;
+
+    margin-bottom: 60px;
+}
+
+.footer-content li {
+    margin-bottom: 60px;
+    transition: all .40s ease;
+}
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--white-orange);
+}
+
+.footer-content a {
+    font-family: "Lato";
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Lato";
+    padding-right: 250px;
+}
+
+.footer-bottom p:last-of-type {
+    font-weight: bold;
+}
